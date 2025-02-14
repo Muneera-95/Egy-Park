@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "451008423522",
-    "project_id": "egy-park-6d3a2",
-    "storage_bucket": "egy-park-6d3a2.appspot.com"
+    "project_id": "Q-park-6d3a2",
+    "storage_bucket": "Q-park-6d3a2.appspot.com"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:451008423522:android:436a176f9c257606f6133b",
         "android_client_info": {
-          "package_name": "com.proga.egy_park"
+          "package_name": "com.proga.Q_park"
         }
       },
       "oauth_client": [
