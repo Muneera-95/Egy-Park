@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:egy_park/screens/booked.dart';
+import 'package:Q_park/screens/booked.dart';
 import 'package:egy_park/widgets/floating_appbar.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
@@ -87,7 +87,7 @@ class _MapScreenState extends State<MapScreen> {
       initializationSettings,
     );
 
-    await FirebaseMessaging.instance.subscribeToTopic('egypark');
+    await FirebaseMessaging.instance.subscribeToTopic('Qpark');
   }
 
   @override
