@@ -1,9 +1,9 @@
-import 'package:egy_park/screens/booked.dart';
-import 'package:egy_park/screens/login.dart';
-import 'package:egy_park/screens/map_screen.dart';
-import 'package:egy_park/screens/park_details.dart';
-import 'package:egy_park/screens/signup.dart';
-import 'package:egy_park/screens/splash_screen.dart';
+import 'package:Q_park/screens/booked.dart';
+import 'package:Q_park/screens/login.dart';
+import 'package:Q_park/screens/map_screen.dart';
+import 'package:Q_park/screens/park_details.dart';
+import 'package:Q_park/screens/signup.dart';
+import 'package:Q_park/screens/splash_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
       showSemanticsDebugger: false,
       debugShowCheckedModeBanner: false,
       debugShowMaterialGrid: false,
-      title: 'Egy Park',
+      title: 'Q Park',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
